@@ -1,0 +1,21 @@
+.margin-general, header nav ul, footer .row h6, footer .icon-btn {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.page-width, header nav.container, section.container, footer {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.font-style, h1, .inline .row .col-3 p, .col-4 p, .stats .col-3 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.hover-style:hover, .twitter:hover, .facebook:hover, .google-plus:hover, .instagram:hover, .github:hover, .hover-style:focus, .twitter:focus, .facebook:focus, .google-plus:focus, .instagram:focus, .github:focus {
+  color: opacity;
+}
+.body {
+  text-align: center;
+}
