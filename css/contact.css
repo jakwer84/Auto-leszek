@@ -1,21 +1,91 @@
-.margin-general, header nav ul, footer .row h6, footer .icon-btn {
-  padding: 0;
+header {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+ }
+
+header nav.container {
   margin: 0 auto;
 }
 
-.page-width, header nav.container, section.container, footer {
-  max-width: 1200px;
-  width: 100%;
+header nav img {
+  padding: 10px 0;
 }
 
-.font-style, h1, .inline .row .col-3 p, .col-4 p, .stats .col-3 {
-  text-transform: capitalize;
-  text-align: center;
+header nav ul {
+  float: right;
+  list-style-type: none;
 }
 
-.hover-style:hover, .twitter:hover, .facebook:hover, .google-plus:hover, .instagram:hover, .github:hover, .hover-style:focus, .twitter:focus, .facebook:focus, .google-plus:focus, .instagram:focus, .github:focus {
-  color: opacity;
+header nav ul li {
+  display: inline-block;
 }
+
+header nav ul li a {
+  line-height: 50px;
+  display: block;
+  color: #fff;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header nav ul li a:hover, header nav ul li a:focus {
+  background: #ccc;
+}
+
 .body {
   text-align: center;
+  padding: 15px;
 }
+
+p {
+  margin: auto;
+  font-family: sans-serif; Arial
+  line-height: 3px;
+}
+
+span {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+ }
+
+footer h5 {
+  font-weight: bold;
+ }
+
+@media (max-width: 767px) {
+ .margin-m-general, header nav ul, footer, footer .row h6 {
+   margin: 0 auto;
+   padding: 0; }
+
+ .media-width, .container, header nav ul,
+  footer {
+   max-width: 767px;
+   width: 100%; }
+
+  .container {
+    margin: 0 auto;
+  }
+
+  header {
+    height: auto;
+    text-align: center;
+  }
+    header nav ul {
+      float: none;
+    }
+      header nav ul li {
+        display: block;
+        text-align: center;
+      }
+
+  footer h5 {
+    font-weight: bold; } }
+
+ /*# sourceMappingURL=style.css.map */

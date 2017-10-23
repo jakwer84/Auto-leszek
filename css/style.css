@@ -10,13 +10,6 @@
   text-transform: capitalize;
   text-align: center; }
 
-.hover-style:hover, .twitter:hover, .facebook:hover, .google-plus:hover, .instagram:hover, .github:hover, .hover-style:focus, .twitter:focus, .facebook:focus, .google-plus:focus, .instagram:focus, .github:focus {
-  color: opacity; }
-
-.fa-style, .row .layer .fa, footer .row .fa {
-  height: 30px;
-  width: 30px; }
-
 .col-1 {
   width: 8.33333%; }
 
@@ -120,7 +113,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  height: 100vh; }
+  height: 50vh; }
 
 .slogan {
   color: black;
